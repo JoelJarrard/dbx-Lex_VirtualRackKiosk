@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('fonts/DroidSans-webfont.eot');
+    src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-webfont.woff') format('woff'),
+         url('fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
++89
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('fonts/DroidSans-Bold-webfont.eot');
+    src: url('fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+div.button1     {
+        width:181px;
+        height:90px;
+        position:absolute;
+        left: 54px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button1:hover       {
+        opacity:1.0;
+        }
+
+div.button2     {
+        width:151px;
+        height:90px;
+        position:absolute;
+        left: 235px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button2:hover       {
+        opacity:1.0;
+        }
+
+div.button3     {
+        width:153px;
+        height:90px;
+        position:absolute;
+        left: 386px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button3:hover       {
+        opacity:1.0;
+        }
+
+div.button4     {
+        width:152px;
+        height:90px;
+        position:absolute;
+        left: 539px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button4:hover       {
+        opacity:1.0;
+        }
+
+div.button5     {
+        width:152px;
+        height:90px;
+        position:absolute;
+        left: 691px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button5:hover       {
+        opacity:1.0;
+        }
+
+div.button6     {
+        width:183px;
+        height:90px;
+        position:absolute;
+        left: 843px;
+        top: 324px;
+        z-index:1;
+        background-color:none;
+        opacity: 0.5;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:0px;
+        transition:opacity .5s;
+        -moz-transition:opacity .5s; /* Firefox 4 */
+        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        }
+
+div.button6:hover       {
+        opacity:1.0;
+        }
+
+
+a.buttonlinks   {
+        font: 14px 'DroidSansRegular', Arial, sans-serif;
+        color:white;
+        letter-spacing:.12em;
+        text-decoration:none;
+        }
+
+
+body	{
+       	background-color:black;
+        }
+
+div.maincontainer {
+		width:1079px;
+		height:1919px;
+		padding:0;
+                margin:0;
+                margin-left:-12px;
+                margin-top:-8px;
+                background-color:black;		
+	    }
+
+div.headercontainer   {
+        width:1080px;
+        height:414px;
+        padding: 0;
+        margin: 0;
+        background-color:black;
+        }
+
+div.headertopmargin {
+        width:1080px;
+        height:54px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        }
+
+div.headermargin    {
+        width: 54px;
+        height: 360px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+#navigation, #content,.section{
+		padding:0;
+		margin:0;
+		list-style:none;
+		}
+
+.navigation{
+		float:left;
+		width:972px;
+		height:360px;
+		background-color:black;
+		}
+
+div.lowercontainer  {
+        width:1080px;
+        height:1506px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        }
+
+div.lowermarginleft {
+        width:54px;
+        height:1452px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.lowermarginright {
+        width:54px;
+        height:1452px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:right;
+        }
+            
+div.lowerbottommargin   {
+        width:1080px;
+        height:54px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        z-index:-1;
+        float:right;           
+        }
+
+
+#content{
+		overflow:hidden;
+		width:972px;
+		background-color:black;
+		position:relative;
+		height:1452px;
+		float:left;
+		}
+
+	#content h2{
+		color:#993333;
+		margin:20px 0pt;
+		}
+	#content a{
+		color:#777;
+		font-weight:bolder;
+		text-decoration:none;
+		}
+
+.section{
+	width:2916px;
+	position:relative;
+	}
+
+	.section .sub{
+		position:relative;
+		float:left;
+		padding:0;
+		width:972px;
+		height:1452px;
+		}
+		.section .sub p{
+			width:550px;
+			margin:16px 0;
+			font-size:85%;
+			line-height:1.4em;
+		}
+		.section .next, .section .prev{
+			font-size:18px;
+			position:absolute;
+			bottom:15px;
+			letter-spacing:-2px;
+		}
+		.section .next{
+			right:30px;
+		}
+		.section .prev{
+			left:30px;
+		}
+
+div.singlerackarea1 {
+        width:972px;
+		height:90px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.halfrackarea1 {
+        width:486px;
+        height:90px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+            
+div.doublerackinfo1 {
+        width:972px;
+        height:180px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+            
+div.singlerackarea2 {
+        width:972px;
+        height:90px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.triplerackarea {
+        width:972px;
+        height:270px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+
+div.singlerackextra {
+        width:972px;
+        height:102px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+            
+div.doublerackinfo2 {
+        width:972px;
+        height:180px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+            
+div.doublerackextra {
+        width:972px;
+        height:192px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.triplerackextra {
+        width:972px;
+        height:282px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.quadruplerackextra  {
+        width:972px;
+        height:372px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+
+        }
+
+div.ninerackextra {
+        width:972px;
+        height:822px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
+div.12extrapixels {
+        width:972px;
+        height:12px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        
+        }
+
