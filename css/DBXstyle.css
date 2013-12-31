@@ -4,6 +4,7 @@ body{
     margin:0;
     width:1078px;
     height:1918px;
+    overflow:hidden;
     }
 
 
@@ -21,18 +22,12 @@ div.button1     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
-        transition:opacity .5s;
-        -moz-transition:opacity .5s; /* Firefox 4 */
-        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        margin-top:-1px;
         }
 
-div.button1:hover       {
-        opacity:1.0;
-        }
 
 div.button2     {
         width:151px;
@@ -42,18 +37,12 @@ div.button2     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
-        transition:opacity .5s;
-        -moz-transition:opacity .5s; /* Firefox 4 */
-        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        margin-top:-1px;
         }
 
-div.button2:hover       {
-        opacity:1.0;
-        }
 
 div.button3     {
         width:153px;
@@ -63,18 +52,15 @@ div.button3     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
+        margin-top:-1px;
         transition:opacity .5s;
         -moz-transition:opacity .5s; /* Firefox 4 */
         -webkit-transition:opacity .5s; /* Safari and Chrome */
         }
 
-div.button3:hover       {
-        opacity:1.0;
-        }
 
 div.button4     {
         width:152px;
@@ -84,18 +70,12 @@ div.button4     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
-        transition:opacity .5s;
-        -moz-transition:opacity .5s; /* Firefox 4 */
-        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        margin-top:-1px;
         }
 
-div.button4:hover       {
-        opacity:1.0;
-        }
 
 div.button5     {
         width:152px;
@@ -105,18 +85,12 @@ div.button5     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
-        transition:opacity .5s;
-        -moz-transition:opacity .5s; /* Firefox 4 */
-        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        margin-top:-1px;
         }
 
-div.button5:hover       {
-        opacity:1.0;
-        }
 
 div.button6     {
         width:183px;
@@ -126,18 +100,12 @@ div.button6     {
         top: 324px;
         z-index:1;
         background-color:none;
-        opacity: 0.5;
         text-align:center;
         vertical-align:middle;
         padding-top:0px;
-        transition:opacity .5s;
-        -moz-transition:opacity .5s; /* Firefox 4 */
-        -webkit-transition:opacity .5s; /* Safari and Chrome */
+        margin-top:-1px;
         }
 
-div.button6:hover       {
-        opacity:1.0;
-        }
 
 
 a.buttonlinks   {
@@ -199,6 +167,7 @@ div.headermargin    {
 		width:972px;
 		height:360px;
 		background-color:black;
+        margin-top:0px;
 		}
 
 div.lowercontainer  {
