@@ -302,6 +302,15 @@ div.triplerackarea {
         float:left;
         }
 
+div.sixrackarea {
+        width:972px;
+        height:540px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+        }
+
 
 div.singlerackextra {
         width:972px;
@@ -342,6 +351,26 @@ div.triplerackextra {
 div.quadruplerackextra  {
         width:972px;
         height:372px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+
+        }
+
+div.fiverackextra  {
+        width:972px;
+        height:462px;
+        padding:0;
+        margin:0;
+        background-color:black;
+        float:left;
+
+        }
+
+div.sixrackextra  {
+        width:972px;
+        height:552px;
         padding:0;
         margin:0;
         background-color:black;
